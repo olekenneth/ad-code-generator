@@ -1,0 +1,69 @@
+body {
+    font-size: 16px;
+    background-color: #002b36;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.wrapper {
+    background-color: #fdf6e3;
+    min-height: 300px;
+    padding: 25px;
+    width: 90%;
+    max-width: 768px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #b58900;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+textarea {
+    width: 90%;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 15px;
+    display: none;
+    margin: 20px auto;
+}
+
+form {
+    width: 75%;
+    margin: 10px auto;
+    overflow: auto;
+    min-height: 160px;
+}
+
+.error {
+    color: #cb4b16;
+    width: 75%;
+    margin: 10px auto;
+}
+
+label, input {
+    color: #657b83;
+    font-size: 16px;
+    float: left;
+    width: 65%;
+    height: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+label {
+    text-transform: capitalize;
+    margin-bottom: 7px;
+    padding: 0;
+    width: 30%;
+}
+
+input[type=checkbox] {
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    width: 16px;
+    height: 16px;
+    margin: 7px 0 0 7px;
+}
