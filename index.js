@@ -3,7 +3,7 @@
         defaults: {
             height: '250',
             width: '320',
-            URL: '',
+            URL: 'http://',
             responsive: false,
         },
         validate: function(attrs, options) {

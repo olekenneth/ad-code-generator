@@ -17,16 +17,21 @@ body {
 h1 {
     text-align: center;
     color: #b58900;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
 }
 
 textarea {
     width: 90%;
-    font-size: 14px;
-    border-radius: 5px;
+    font-size: 16px;
+    color: #586e75;
+    font-family: 'Source Code Pro', monospace;
+    border: none;
     padding: 15px;
     display: none;
     margin: 20px auto;
+    background-color: #eee8d5;
 }
 
 form {
@@ -56,6 +61,7 @@ label {
     margin-bottom: 7px;
     padding: 0;
     width: 30%;
+    font-weight: bold;
 }
 
 input[type=checkbox] {
