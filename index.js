@@ -26,6 +26,7 @@
             this.listenTo(this.model, 'change', this.isValid);
 
             $.ajax('template.html', {
+                cache: false,
                 success: this.setTemplate,
                 context: this,
                 error: function(arg1, arg2, arg3) {
