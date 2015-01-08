@@ -1,6 +1,6 @@
 <iframe scrolling="no" frameborder="0" width="<%= width %>" height="<%= height %>" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" src="<%= URL %>" style="border: 0px;"></iframe>
 
-<% if (responsive) { %><script> 
-    window.frameElement.style.cssText="max-width: <%= width %>;width: 100% !important;";
-    window.onload=function() { this.window.frameElement.setAttribute("width", "<%= width %>"); }
-</script><% } %>
+<% if (responsive) { %>
+<script>document.write('<script>window.onload=function() { window.frameElement.style.cssText="max-width: <%= width %>;width: 100% !important;"; }<\/script>');
+</script>
+<% } %>
